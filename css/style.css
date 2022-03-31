@@ -1,0 +1,606 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+html{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-image: url(../img/bg-tablet-pattern.svg),url(../img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat ;
+    background-position: right -70px top -110px, left -410px bottom 495px;
+    background-size: 48rem;
+}
+
+/*Header*/
+
+.header{
+    align-items:center;
+    display: flex;
+    height: 17vh;
+    justify-content: space-between;
+    padding:65px 165px;
+    width: 95vw;
+}
+#icono-hamburguesa{
+    display:none;
+}
+
+.lista-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35vw;    
+}   
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #0a97f5;
+}
+
+a:hover{
+    color: #F3603B;
+    font-size: 1.2rem;
+}
+
+.boton-header, .boton-cuerpo{
+    border-radius: 50px;
+    border-color:#F3603B;
+    background-color: #F3603B;
+    color: #fff;;
+    height: 44px;
+    padding: 10px;
+    width: 144px;
+}
+.boton-header:hover{
+    cursor: pointer;
+    font-size: 12px;
+}
+.boton-cuerpo:hover{
+    cursor: pointer;
+    font-size: 12px;
+}
+/*Banner (home-section)*/
+.home-section{
+    align-content: center;
+    display: flex;
+    height: 525px;
+    justify-content: space-evenly;
+    position: relative;
+    width: 100%;
+}
+.titulo-home-section{
+    align-items: flex-start;
+    align-self: center;
+    align-content: center;
+    display:flex;
+    flex-flow: column wrap;
+    height: 70%;
+    justify-content: space-between;
+    width:auto;
+}
+.texto-home{
+    height: 71px;
+    width: 350px;
+}
+
+h1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', Arial, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    height: 198px;
+    text-align: left;
+    width: 439px;
+}
+
+/*Cuerpo(main)*/
+
+.Sobre-nosotros{
+    align-items:flex-start;
+    display: flex;
+    height: 549px;
+    justify-content:space-evenly;
+    position: relative;
+    width:100%;
+    margin-top: 2rem;
+}
+.section-sobre-nosotros /* h2 y p */{
+    display: flex;
+    flex-direction: column;
+}
+.titulo-sobre-nosotros{
+    height:max-content;
+    padding-bottom: 35px;
+}
+
+.texto-sobre-nosotros{
+    height: 8vh;
+    width: 25vw;
+}
+
+/* lista*/
+.lista{
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    justify-content: space-between;
+    width:min-content;
+    
+}
+.numero-lista{
+    background-color: #F3603B;
+    color: #fff;
+    display: flex;
+    border-radius: 30px;
+    width: 4.4rem;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.info-lista{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:space-between;
+    position: relative;
+    width: 100%;
+
+}
+.titulo-lista{
+    align-items: center;
+    display: flex;
+    justify-items: center;
+    width: 100%;
+}
+.texto-lista{
+    height: 9.2vh ;
+    padding-top: 10px;
+    width: 28vw;
+}
+
+/*testimonios-lista*/
+
+.titulo-testimonios{
+    margin: 5rem 0rem 2.5rem 0rem;
+    text-align: center;
+}
+.personas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.personas-testimonios{
+    display: flex;
+    justify-content:space-between;
+}
+
+.testimonios,.testimonios-2,.testimonios-3 {
+    align-items:  center;
+    background-color: #FAFAFA; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-bottom: 20px ;
+    margin-top: 22px;
+    width: 29vw;
+    border: 1px solid ;
+}
+.radio{
+    display:none;
+}
+.avatar{
+    height: 70px;
+    position: relative;
+    top:-35px;  
+    width:70px;  
+}
+.texto-testimonio{
+    text-align: center;
+}
+#slide-testimonios{
+    display: none;
+}
+.boton-testimonio-section{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.boton-testimonio{
+        border-radius: 50px;
+        background-color: #F3603B;
+        color: #fff;;
+        height: 44px;
+        padding: 10px;
+        width: 144px;
+}
+.boton-testimonio:hover{
+    cursor: pointer;
+    font-size: 12px;
+}
+/*footer*/
+.footer-naranja {
+    align-items: center;
+    background-color: #F3603B;
+    background-image: url(../img/bg-simplify-section-desktop.svg);
+    background-repeat:no-repeat;
+    background-position: top -7rem  left 10rem;
+    
+    display: flex;
+    height:224px;
+    margin-top: 100px;
+    justify-content: space-between;
+    padding:100px;
+
+}
+.titulo-footer{
+    font-family: 'Be Vietnam', 'Times New Roman', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    height: 14vh;
+    line-height: 48px;
+    text-align: left;
+    width:30vw;
+}
+
+.boton-footer{
+    border-radius: 50px;
+    background-color: #fff;
+    color: #F3603B ;;
+    height: 7vh;
+    padding: 10px;
+    width:9vw
+}
+.boton-footer:hover{
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/*fotter-negro*/
+
+.footer-negro{
+    align-items:center;
+    background-color: #000;
+    display:flex;
+    flex-direction: row;
+    height:224px;
+    justify-content: space-evenly;
+    width:100%;
+}
+
+.foot-negro-izq{
+    display: flex;
+    flex-direction: column;
+    height:70px;
+    justify-content:space-between;
+    
+}
+.logo-footer{
+    height:26px;
+    width: 145px;
+}
+.icono-lista{
+    background-color: #000;
+    display:flex;
+    flex-flow: row nowrap; ;
+    height:22px;
+    justify-content: space-evenly;
+    margin:0px;
+    padding:0px;
+    width:150px;
+}
+.foot-negro-center{
+    color:#fff;
+    display: flex;
+    flex-flow: row nowrap;
+    height:224px;
+    
+}
+.lista-de-los-enlaces{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 0px 50px;
+    width:150px;
+}
+.lista-enlaces{
+    color:#fff;
+}
+.lista-enlaces:hover{
+    color: #F3603B;
+    font-size: 1.2rem;
+}
+.foot-negro-der{
+    display: flex;
+    flex-direction:column ;
+    justify-content:space-between;
+    height: 20vh;
+    width: min-content;
+}
+.input-boton{
+    display: flex;
+    height: min-content;
+    width: min-content;
+}
+.texto-footer{
+    color: #fff;
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px 0px 0px;
+    position: relative;
+    width:max-content;
+}
+#input-footer{
+    border-radius: 50px;
+    height: 44px;
+    padding:10px;
+    width: 200px;
+}
+#input-footer:focus{
+    cursor:pointer;
+    font-size: 16px;
+}
+.boton-footer-negro{
+    border-radius: 50px;
+    border-color:#F3603B;
+    background-color: #F3603B;
+    color: #fff;;
+    height: 42px;
+    padding: 10px;
+    width: 63px;
+}
+.boton-footer-negro:hover{    
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+/* movil */
+@media (max-width:480px) {
+
+    body{
+        background-image: url(../img/bg-tablet-pattern.svg), url(../img/bg-tablet-pattern.svg);
+        background-repeat: no-repeat ;
+        background-position: right -13.2rem top -7rem, right -130px top 49rem  ;
+        background-size: 40rem , 20rem;
+        ;
+    }
+
+        /* header*/
+    .header{
+        display:flex;
+        justify-content:space-between;
+        height:10vh;
+        padding:0px 10px;
+        width: 100%;
+    }   
+    .logo-hamburguesa{
+        display:flex;
+        justify-content:space-between;
+        width: 100%;
+    }
+    #icono-hamburguesa{
+        display:flex;  
+        font-size: 2rem;
+    }
+    .logo-header{
+        display:block;
+    }
+    
+    .boton-header{
+        display: none;
+    }
+    .lista-header{
+        display: none;
+    }
+
+        /* banner (home-section) */  
+    .home-section{
+        display: flex;
+        flex-direction: column-reverse;
+        height:80vh;
+        width:auto;
+    }
+    .titulo-home-section{
+        align-items: center;
+        display: flex;
+        flex-flow:column wrap;
+        justify-content: space-evenly;
+        height:40vh;
+    } 
+    .ilustracion-intro{
+        justify-content: flex-end;   
+    }
+    .texto-home{
+        height: 7.1vh;
+        text-align:center;
+    }
+    h1{
+        font-style: normal;
+        font-weight: 700;
+        height:19.8vh;
+        text-align:left;
+        width: 88vw;
+    }
+
+        /* Cuerpo(main) */
+
+    .Sobre-nosotros{
+        display: flex;
+        flex-direction: column;
+        height:80vh;
+        width:auto;
+    }
+    .section-sobre-nosotros{
+        align-items: center;
+        display: flex;
+        flex-flow:column wrap;
+        justify-content: space-around;
+        margin-bottom:2.5rem;
+        margin-top:2.5rem;
+        
+        text-align: center;
+        width: 100vw;
+    }
+    .texto-sobre-nosotros{
+        display: flex;
+        text-align:center;
+        position: relative;
+        height:auto;
+        width:80vw;
+    }   
+    
+        /* lista*/ 
+    .lista{
+        display: flex;
+        height:55vh;
+        width: 100%;
+    }
+    .info-lista{
+        width: 84vw;
+    }
+    .numero-lista{
+        margin-right:10px;
+    }
+    .titulo-lista{ 
+        display: flex;
+        background-color: #FFF0EB;
+        border-radius: 50px 0px 0px 50px;
+        width: 100vw;
+        height:3.7vh;
+    }
+    .texto-lista{
+        padding-left: 0.8rem;
+        position:relative;
+        text-align:left;
+        width: 78vw;
+    }
+        /*testimonios*/
+    .titulo-testimonios{
+        margin: 5px 0px 30px;
+        text-align: center;
+    }
+    .personas{
+        display: flex;
+        flex-direction:column ;   
+        align-items: center;     
+    }
+    .personas-testimonios{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 35px;
+        padding-top: 12px;
+    }
+    .testimonios{
+        flex-wrap: nowrap;
+        width: 90vw;
+        background-color: #FAFAFA;
+        height: 14vh;
+    }
+    .testimonios-2,.testimonios-3{
+        display: none;
+    }
+    .avatar{
+        position: relative;
+        height: 70px;
+        top:-35px;  
+        width:70px;  
+    }
+    .texto-testimonio{
+        text-align: center;
+    }
+    .radio{
+        display:flex;
+        justify-content:center;
+        color: #F3603B;
+        margin-top: 1.5rem;
+        margin-bottom:1.8rem;
+    }
+    #slide-testimonios{
+        display:inline-block;
+
+    }
+    .boton-testimonio{
+        border-color: #F3603B;
+        background-color: #F3603B;
+        color: #fff;;
+        height: 4.4vh;
+        padding: 10px;
+        width: 30vw;
+    }
+    .boton-testimonio-section{
+        display: flex;
+        margin: 1.5rem;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    /*footer*/
+    .footer-naranja{
+        align-items: center;
+        background-color: #F3603B;
+        display: flex;
+        flex-direction: column;
+        height: 35vh;
+        margin-top: 100px;
+        justify-content: space-evenly;
+        padding: 35px 20px;
+        background-image: url(../img/bg-simplify-section-mobile.svg);
+        background-position:top -1rem left -2rem;
+        background-repeat: no-repeat ;
+        background-size: 8rem;
+    }
+        .titulo-footer{
+        height:max-content;
+        text-align: center;
+        width: 65vw;
+    }
+    
+    .boton-footer{
+        height:  5vh;
+        width:20vw
+    }
+
+    /*footer negro*/
+    .footer-negro{
+        display:flex;
+        flex-direction: column-reverse;
+        background-color: #000;
+        align-items: center;
+        height:58.5vh;
+        justify-content: space-evenly;
+    }
+    .foot-negro-izq{
+        display:flex;
+        flex-direction:column-reverse;
+    }
+    .foot-negro-center{
+        width:100vw;
+    }
+    .foot-negro-der{
+        display:flex;
+        height:min-content;
+        
+    }
+    #input-footer{
+        width: 75vw;
+        height: 4vh;
+        border-radius: 50px;
+        }
+        
+    .boton-footer-negro{
+        width:20vw;
+    }
+    .texto-footer{
+        align-self: center;
+        top: 505px;
+    }    
+
+}
+
